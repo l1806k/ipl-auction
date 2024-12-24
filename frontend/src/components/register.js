@@ -14,7 +14,7 @@ const Register = () => {
             const res = await axios.post('http://localhost:5000/api/auth/register', formData);
             alert(res.data.message);
         } catch (err) {
-            alert('Error registering user');
+            alert('hoo no Error registering user');
         }
     };
 
